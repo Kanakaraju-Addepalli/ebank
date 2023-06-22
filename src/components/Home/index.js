@@ -4,7 +4,7 @@ import './index.css'
 import Header from '../Header'
 
 const Home = () => {
-  const token = Cookies.get('jwt-token')
+  const token = Cookies.get('jwt_token')
   if (token === undefined) {
     return <Redirect to="/ebank/login" />
   }
