@@ -56,6 +56,7 @@ label {
   color: #ffffff;
   font-family: 'Roboto';
   border-radius: 6px;
+  cursor: pointer;
 }
 input {
   border: 1px solid #c3cad9;
